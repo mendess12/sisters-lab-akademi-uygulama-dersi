@@ -14,11 +14,14 @@ fun main() {
     arrayList.add(23)
     arrayList.add(18)
 
+    println("ArrayList toplamı: ${arrayListToplam(arrayList)}")
+}
+
+fun arrayListToplam(list:ArrayList<Int>) : Int{
     var toplam = 0
 
-    for (i in 0 until arrayList.size) {
-        toplam += arrayList[i]
+    for (i in 0 until list.size) {
+        toplam += list[i]
     }
-
-    println("ArrayList toplamı: $toplam")
+    return toplam
 }
