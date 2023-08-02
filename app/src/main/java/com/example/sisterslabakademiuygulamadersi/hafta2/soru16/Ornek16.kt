@@ -7,10 +7,10 @@ fun main() {
     * Her sınıfın "maasHesapla" metodu olsun
     * */
 
-    val mudur = Mudur(1000)
-    mudur.maasHesapla()
+    val mudur = Mudur()
+    mudur.maasHesapla(1000, 28)
 
-    val memur = Memur(800)
-    memur.maasHesapla()
+    val memur = Memur()
+    memur.maasHesapla(800, 30)
 
 }

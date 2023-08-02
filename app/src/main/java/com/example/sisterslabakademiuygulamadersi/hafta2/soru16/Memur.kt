@@ -1,8 +1,9 @@
 package com.example.sisterslabakademiuygulamadersi.hafta2.soru16
 
-class Memur constructor(val gunlukKazanc: Int) : Employee {
-    override fun maasHesapla() {
-        val maas = 30 * gunlukKazanc
+class Memur  : Employee {
+    override fun maasHesapla(gunlukKazanc: Int, calismaGunSayisi: Int) {
+        val maas = calismaGunSayisi * gunlukKazanc
         println("Memur maaşı: $maas")
     }
+
 }
