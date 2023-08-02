@@ -8,9 +8,9 @@ fun main() {
     * */
 
 
-    val daire = Daire()
-    daire.daireAlan(15)
+    val daire = Daire(5)
+    daire.alanHesapla()
 
-    val dikdortgen = Dikdortgen()
-    dikdortgen.dikdortgenAlan(10, 15)
+    val dikdortgen = Dikdortgen(15, 10)
+    dikdortgen.alanHesapla()
 }

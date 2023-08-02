@@ -1,13 +1,10 @@
 package com.example.sisterslabakademiuygulamadersi.hafta2.soru15
 
-class Dikdortgen : Shape {
-
-    override fun dikdortgenAlan(kisaKenar: Int, uzunKenar: Int) {
-        val alan = 2 * (kisaKenar + uzunKenar)
-        println("Dikdortgen alan: $alan")
+class Dikdortgen constructor(val uzunKenar: Int, val kisaKenar: Int) : Shape {
+    override fun alanHesapla() {
+        val alan = 2 * (uzunKenar + kisaKenar)
+        println("Dikdörtgen Alam: $alan")
     }
 
-    override fun daireAlan(kenar: Int) {
-        TODO("Not yet implemented")
-    }
+
 }
