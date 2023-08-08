@@ -36,6 +36,7 @@
         android:layout_below="@id/news_iv"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:text="@string/news_date"
         android:textSize="16sp" />
 
