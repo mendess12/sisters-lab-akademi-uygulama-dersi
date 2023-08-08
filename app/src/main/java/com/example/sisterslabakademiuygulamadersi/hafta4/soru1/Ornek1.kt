@@ -1,4 +1,4 @@
-package com.example.sisterslabakademiuygulamadersi.hafta4
+package com.example.sisterslabakademiuygulamadersi.hafta4.soru1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

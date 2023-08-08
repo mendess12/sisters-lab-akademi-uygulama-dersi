@@ -4,7 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.sisterslabakademiuygulamadersi.databinding.ActivityMainBinding
-import com.example.sisterslabakademiuygulamadersi.hafta4.Ornek1
+import com.example.sisterslabakademiuygulamadersi.hafta4.soru1.Ornek1
+import com.example.sisterslabakademiuygulamadersi.hafta4.soru2.Ornek2
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +19,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.exampleOne.setOnClickListener {
             val exampleOneIntent = Intent(this@MainActivity, Ornek1::class.java)
+            startActivity(exampleOneIntent)
+        }
+
+        binding.exampleTwo.setOnClickListener {
+            val exampleOneIntent = Intent(this@MainActivity, Ornek2::class.java)
             startActivity(exampleOneIntent)
         }
     }
