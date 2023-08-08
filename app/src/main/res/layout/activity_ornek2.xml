@@ -59,11 +59,11 @@
         android:layout_below="@+id/news_info_tv"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="64dp"
-        android:textSize="20sp"
         android:layout_marginStart="64dp"
-        android:text="@string/read_continue" />
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/read_continue"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

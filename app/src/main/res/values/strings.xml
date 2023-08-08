@@ -6,6 +6,12 @@
     <string name="buy_now">Şimdi Satın Al</string>
     <string name="news_name">Oyun Haberleri</string>
     <string name="news_date">14.08.2020</string>
-    <string name="read_continue">Devamını oku...</string>
-    <string name="news_info">Nintendo son yıllarda büyük başarılara imza attı. Özellikle 2019 yılında piyasaya sürdüğü Nintendo Switch konsoluyla büyük bir çıkış yakalamış, bu başarıya ise içerisinde bulunan oyunlar büyük katkı sağlamıştır. The Legend of Zelda: Tears of the Kingdom adlı oyunun çıkışı, \\ Nintendo'nun son finansal raporlarına göre büyük bir etki yarattı.</string>
+    <string name="read_continue">Devamını oku</string>
+    <string name="news_info">Nintendo son yıllarda büyük başarılara imza attı. Özellikle 2019 yılında piyasaya sürdüğü Nintendo Switch konsoluyla büyük bir çıkış yakalamış, bu başarıya ise içerisinde bulunan oyunlar büyük katkı sağlamıştır.</string>
+    <string name="student_name">Öğrenci adı</string>
+    <string name="student_tc">Öğrenci tc</string>
+    <string name="student_password">Şifre</string>
+    <string name="login">Giriş</string>
+    <string name="error_message">Adını, tc ni ve şifreni doldurduğundan emin olmalısın.</string>
+
 </resources>

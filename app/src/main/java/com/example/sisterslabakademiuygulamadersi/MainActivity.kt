@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.sisterslabakademiuygulamadersi.databinding.ActivityMainBinding
 import com.example.sisterslabakademiuygulamadersi.hafta4.soru1.Ornek1
 import com.example.sisterslabakademiuygulamadersi.hafta4.soru2.Ornek2
+import com.example.sisterslabakademiuygulamadersi.hafta4.soru3.Ornek3
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,8 +24,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.exampleTwo.setOnClickListener {
-            val exampleOneIntent = Intent(this@MainActivity, Ornek2::class.java)
-            startActivity(exampleOneIntent)
+            val exampleTwoIntent = Intent(this@MainActivity, Ornek2::class.java)
+            startActivity(exampleTwoIntent)
+        }
+
+        binding.exampleThree.setOnClickListener {
+            val exampleThreeIntent = Intent(this@MainActivity, Ornek3::class.java)
+            startActivity(exampleThreeIntent)
         }
     }
 }
