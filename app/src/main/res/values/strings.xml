@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SistersLabAkademiUygulamaDersi</string>
+    <string name="name">Hamburger</string>
+    <string name="price">150 TL</string>
+    <string name="info">Açıklama</string>
+    <string name="buy_now">Şimdi Satın Al</string>
 </resources>
