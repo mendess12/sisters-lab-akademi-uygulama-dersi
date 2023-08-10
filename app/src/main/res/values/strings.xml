@@ -13,5 +13,26 @@
     <string name="student_password">Şifre</string>
     <string name="login">Giriş</string>
     <string name="error_message">Adını, tc ni ve şifreni doldurduğundan emin olmalısın.</string>
+    <string name="lesson_one">Türkçe</string>
+    <string name="lesson_one_teacher_name">Ali Kaya</string>
+    <string name="lesson_two">İngilizce</string>
+    <string name="lesson_two_teacher_name">Yasemin Kılıç</string>
+    <string name="lesson_three">Matematik</string>
+    <string name="lesson_three_teacher_name">Önder Şahin</string>
+    <string name="search">Search</string>
+    <string name="sign_out">Sign out</string>
+    <string name="note_one">Vize Notu</string>
+    <string name="note_two">Final Notu</string>
+    <string name="average_one">Ortalama</string>
+    <string name="lesson_one_score_one">50</string>
+    <string name="lesson_one_score_two">80</string>
+    <string name="lesson_one_average">65</string>
+    <string name="lesson_two_score_one">70</string>
+    <string name="lesson_two_score_two">40</string>
+    <string name="lesson_two_average">50</string>
+    <string name="lesson_three_score_one">65</string>
+    <string name="lesson_three_score_two">65</string>
+    <string name="lesson_three_average">56</string>
+
 
 </resources>
